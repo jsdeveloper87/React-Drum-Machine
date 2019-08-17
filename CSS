@@ -1,0 +1,64 @@
+$blue-glow: 0 0 5px blue, 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue, 0 0 55px blue, 0 0 75px blue;
+
+$red-glow: 0 0 5px #ff073a, 0 0 10px #ff073a, 0 0 20px #ff073a, 0 0 30px #ff073a, 0 0 40px #ff073a, 0 0 55px #ff073a, 0 0 75px #ff073a;
+
+$green-glow: 0 0 5px green, 0 0 10px green, 0 0 20px green, 0 0 30px green, 0 0 40px green, 0 0 55px green, 0 0 75px green;
+
+body {
+  background-color: black;
+  font-family: orbitron;
+}
+
+#big-border {
+  height: 590px;
+  width: 100%;
+  border: 10px solid blue;
+  border-radius: 5px;
+}
+
+#display {
+  height: 320px;
+  width: 360px;
+  border: 3px solid blue;
+  padding-top: 20px;
+  padding-left: 40px;
+  margin-top: 100px;
+  border-radius: 70px;
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5));
+  font-size: 30px;
+  box-shadow: $blue-glow;
+  
+    .drum-pad {
+  border-radius: 5px;
+  height: 69px;
+  width: 69px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding-left: 22px;
+  padding-top: 13px;
+  background-color: black;
+  font-weight: bold;
+  box-shadow: 5px 10px red;
+  text-shadow: $blue-glow;
+  color: red; 
+  }
+  
+  .drum-pad:hover {
+  cursor: pointer;
+  text-shadow: $green-glow; 
+    color: green;
+   }
+}
+
+.row {
+  width: 300px; 
+}
+
+.col {
+  width: -50px;
+}
+
+
+
+
+
